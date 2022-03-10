@@ -24,6 +24,13 @@ module.exports = {
         // false will enable clarity tracking code on production environment only
         //
         enable_on_dev_env: true,
+
+        // boolean (defaults to false) on whether to load clarity
+        // after a user action (scroll or route change) + delay
+        delayLoad: false,
+
+        // time to wait after scroll action in ms. Defaults to 1000ms
+        delayLoadTime: 1000
       },
     },
   ],
